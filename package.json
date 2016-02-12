@@ -19,6 +19,15 @@
     "index.js"
   ],
   "keywords": [
+    "objects",
+    "typeof",
+    "native",
+    "types",
+    "literal",
+    "strings",
+    "array",
+    "number",
+    "boolean",
     "documented",
     "tested",
     "ava",
