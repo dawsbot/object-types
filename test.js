@@ -4,6 +4,15 @@ import fn from './';
 
 test('enforces arg length of 1', t => {
   t.throws(() => {
+    fn();
+  }, Error, 'Expected argument length of 1, got 0');
+  t.throws(() => {
+    fn(1, 2, 3);
+  }, Error, 'Expected argument length of 1, got 0');
+});
+
+test('enforces arg1 type', t => {
+  t.throws(() => {
     fn(false);
   }, TypeError);
 });
@@ -18,5 +27,6 @@ test('rest of object types', t => {
   t.is(fn(new Number()), 'number');
   t.is(fn(new Boolean()), 'boolean');
   t.is(fn([]), 'array');
-  t.is(fn(new Date()), 'Date');
+  t.is(fn(new RegExp()), 'regexp');
+  t.is(fn(new Date()), 'date');
 });
