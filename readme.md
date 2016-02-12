@@ -21,21 +21,18 @@ const objectTypes = require('object-types');
 
 typeof [];
 //=> 'object'
-
 objectTypes([]);
 //=> 'array'
 
 
 typeof new Object(true);
 //=> 'object'
-
 objectTypes(new Object(true));
 //=> 'boolean'
 
 
 typeof {};
 //=> 'object'
-
 objectTypes({});
 //=> 'object'
 ```
@@ -105,20 +102,20 @@ typeof myArray === objectTypes(obj);
 Type: `object`
 
 Returns the typeof object as a string:
-- [x] object
-- [x] string
-- [x] number
-- [x] boolean
-- [x] array
-- [x] date
-- [x] regexp
-- [x] not found (only if none of the others match)
+* 'object'
+* 'string'
+* 'number'
+* 'boolean'
+* 'array'
+* 'date'
+* 'regexp'
+* 'not found' (only if none of the others match)
 
 <br>
 
 ## Related
 
-
+* [deep-blue-string](https://github.com/dawsonbotsford/deep-blue-string)
 
 <br>
 
