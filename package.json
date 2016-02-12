@@ -1,9 +1,9 @@
 {
-  "name": "objectification",
+  "name": "object-types",
   "version": "0.0.0",
   "description": "Get Javascript Object types",
   "license": "MIT",
-  "repository": "dawsonbotsford/objectification",
+  "repository": "dawsonbotsford/object-types",
   "author": {
     "name": "dawsonbotsford",
     "email": "dawsonbotsford@gmail.com",
