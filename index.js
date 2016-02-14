@@ -12,7 +12,6 @@ module.exports = function (obj) {
   if (obj === null) {
     return 'null';
   }
-
   // Handle the rest of object types
   switch (obj.constructor) {
     case ({}.constructor):
@@ -30,6 +29,6 @@ module.exports = function (obj) {
     case (new RegExp().constructor):
       return 'regexp';
     default:
-      return 'not found';
+      throw new TypeError(`Unsupported object type`);
   }
 };

@@ -109,7 +109,7 @@ Returns the typeof object as a string:
 * 'array'
 * 'date'
 * 'regexp'
-* 'not found' (only if none of the others match)
+*  throws `TypeError` if unknown object type is inputted
 
 <br>
 
