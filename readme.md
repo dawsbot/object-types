@@ -1,3 +1,5 @@
+# Deprecated in favor of [to-type](https://github.com/dawsonbotsford/to-type)
+
 # object-types [![Build Status](https://travis-ci.org/dawsonbotsford/object-types.svg?branch=master)](https://travis-ci.org/dawsonbotsford/object-types) [![npm version](https://badge.fury.io/js/object-types.svg)](https://badge.fury.io/js/object-types)
 
 > Get Javascript Object types
